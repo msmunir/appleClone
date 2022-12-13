@@ -1,0 +1,30 @@
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/top";
+@import "partials/carousel";
+
+
+header {
+    @include header;
+}
+
+#top {
+    @include top;
+}
+
+#carousel {
+    @include carousel;
+}
+
+
+
+
+
+footer {
+    @include footer;
+}
+
+
