@@ -1,3 +1,90 @@
 @mixin top {
     font-size: 14px;
+    @include flex(column,flex-start, stretch);
+    gap: 12px;
+
+    .row {
+        @include flex(row, center, stretch);
+        height: 692px;
+        gap: 12px;
+        position: relative;
+    }
+
+    .grid {
+        @include flex(row,flex-start, stretch);
+        height: 580px;
+        margin: 0px 12px;
+        gap: 12px;
+
+       
+    }
+    .split {
+        flex-grow: 1;
+        flex-basis: 0;
+        min-height: 100px;
+        position: relative;
+
+        
+    }
+
+    // To spread the link across div
+    .blockLink {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+
+// BACKGROUND IMAGES
+    #row1 {
+        background: url(./images/hero_iphone14__fjmsqstr1ceq_mediumtall_2x.jpeg);
+        background-size: contain;
+        background-position: center;
+    }
+    #row2 {
+        #background-video {
+            // width: 100vw;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            z-index: -1;
+          }
+    }
+    #row3 {
+        background: url(./images/hero__dvsxv8smkkgi_largetall.jpeg);
+        background-size: 3008px auto;
+        background-position: center;
+    }
+    #split1 {
+        background: url(./images/promo_iphone14pro__4n4twj56fzmu_large.jpeg);
+        background-size: auto 580px;
+        background-position: center;
+    }
+    #split2 {
+        background: url(./images/promo_ipad__fioegapg12qi_large.jpeg);
+        background-size: auto 580px;
+        background-position: center;
+    }
+    #split3 {
+        background: url(./images/promo_airpods_holiday__fqg7rt8b4vma_large.jpeg);
+        background-size: auto 580px;
+        background-position: center;
+    }
+    #split4 {
+        background: url(./images/promo_apple_watch_series_8__ch7rexplmihe_large.jpeg);
+        background-size: auto 580px;
+        background-position: center;
+    }
+    #split5 {
+        background: url(./images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpeg);
+        background-size: auto 580px;
+        background-position: center;
+    }
+    #split6 {
+        background: url(./images/tile_homepod_mini__b73w4z3ljymu_large.jpeg);
+        background-size: auto 580px;
+        background-position: center;
+    }
+
 }
