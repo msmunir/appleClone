@@ -1,10 +1,16 @@
-@import "partials/fonts";
 @import "partials/variables";
+@import "partials/fonts";
 @import "partials/mixins";
 @import "partials/header";
 @import "partials/footer";
 @import "partials/top";
 @import "partials/carousel";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 header {
