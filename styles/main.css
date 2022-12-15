@@ -127,6 +127,12 @@ header {
   position: absolute;
   z-index: 1;
 }
+#top .apple-logo {
+  background: url(./images/promo_logo_airpods_holiday__uzkw355klvmy_medium_2x.png);
+  height: 37px;
+  width: 30px;
+  background-size: contain;
+}
 #top #rowx1 {
   background: url(./images/hero_iphone14__fjmsqstr1ceq_mediumtall_2x.jpeg);
   background-size: contain;
@@ -160,7 +166,11 @@ header {
   background-position: center;
 }
 #top #rowx3 h2 {
-  padding-top: 55px;
+  margin-top: 55px;
+  background: url(./images/card_logo__b0k9gna8xemu_largetall_2x.png);
+  height: 48px;
+  width: 134px;
+  background-size: contain;
 }
 #top #rowx3 h3 {
   max-width: 470px;
@@ -179,6 +189,12 @@ header {
   background: url(./images/promo_airpods_holiday__fqg7rt8b4vma_large.jpeg);
   background-size: auto 580px;
   background-position: center;
+}
+#top #split3 figure {
+  margin-top: 53px;
+}
+#top #split3 h4 {
+  margin-top: 9px;
 }
 #top #split4 {
   background: url(./images/promo_apple_watch_series_8__ch7rexplmihe_large.jpeg);
