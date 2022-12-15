@@ -33,6 +33,11 @@ body #top h6 {
   font-weight: 300;
   margin-top: 15px;
 }
+body #top i {
+  position: relative;
+  top: 1px;
+  margin-left: 5px;
+}
 body #top .links a {
   font-size: 20px;
   font-weight: 300;
