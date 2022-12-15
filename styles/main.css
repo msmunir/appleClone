@@ -59,12 +59,6 @@ body #top .dark a {
   color: #2997ff;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 header {
   font-size: 17PX;
   background: red;
