@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   font-family: Helvetica, Arial, sans-serif;
 }
 body #top {
@@ -58,9 +57,12 @@ body #top .dark h6 {
 }
 body #top .dark a {
   color: #2997ff;
-=======
-  font-family: Arial, Helvetica, sans-serif;
->>>>>>> f0634fd2dffbb15f822ad781a1096927d495e9ee
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -70,13 +72,13 @@ header {
 
 #top {
   font-size: 14px;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
   gap: 12px;
   text-align: center;
+  margin-bottom: 12px;
 }
 #top .rowx {
   display: flex;
@@ -209,11 +211,6 @@ header {
   display: none;
 }
 
-#carousel {
-  font-size: 20px;
-=======
-}
-
 #carousel .carousel-flex {
   display: flex;
   flex-direction: row;
@@ -238,7 +235,6 @@ header {
   letter-spacing: 0em;
   margin-left: 40px;
   padding-top: 5px;
->>>>>>> f0634fd2dffbb15f822ad781a1096927d495e9ee
 }
 
 footer {
