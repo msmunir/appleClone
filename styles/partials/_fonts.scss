@@ -42,7 +42,13 @@ body {
             margin-top: 15px;
         }
 
-        a {
+        i {
+            position: relative;
+            top: 1px;
+            margin-left: 5px;
+        }
+
+        .links a {
             // font-size: 21px;
             font-size: 20px;
             font-weight: 300;
@@ -55,7 +61,15 @@ body {
             }
 
             &:nth-child(2) {
-                margin-left: 20px;
+                margin-left: 35px;
+            }
+        }
+
+        .split .links a {
+            font-size: 16px;
+            
+            &:nth-child(2) {
+                margin-left: 28px;         
             }
         }
 
