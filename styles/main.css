@@ -4,14 +4,37 @@ body {
 
 header {
   font-size: 17PX;
+  background: red;
 }
 
 #top {
   font-size: 14px;
 }
 
-#carousel {
+#carousel .carousel-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+#carousel .btn-stream {
+  color: #1d1d1f;
+  background-color: #fff;
+  width: 140px;
+  border-radius: 20px;
+  border: none;
+}
+#carousel .stream {
+  font-weight: 600;
+  padding: 0 5px 0 0;
+}
+#carousel .spanDot {
+  margin: 0 3px;
+}
+#carousel .pText {
   font-size: 20px;
+  letter-spacing: 0em;
+  margin-left: 40px;
+  padding-top: 5px;
 }
 
 footer {
