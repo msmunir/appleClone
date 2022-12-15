@@ -1,6 +1,6 @@
 @mixin footer {
     //    ALLT DU SKRIVER SKA VA INNANGÖR DEN HÄR MIXINEN.
-    font-size: 18PX;
+    // font-size: 18PX;
     }
 
     // div {
@@ -11,10 +11,16 @@
         padding-inline-start: 0px !important;
     }
 
+    .container-footer {
+        width: 100%;
+        position:absolute;
+        bottom:0;
+        margin-bottom: 40px;
+    }
 
     //h4 RUBRIKER
     #category-header {
-        font-size: 14px;
+        font-size: 12px;
         color: black;
         padding-top: 1.5rem;
     }
@@ -30,12 +36,12 @@
     .main-footer a {
         text-decoration: none;
         color: #5a5a5ddd;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .main-footer li {
         list-style-type: none;
-
+        padding: 0.1rem;
     }
 
     .main-footer a:hover {
@@ -49,17 +55,18 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        margin: 50px 370px 0px 370px;
+        margin: 30px 370px 0px 370px;
     }
 
     #footer-text {
-        font-size: 14px;
+        font-size: 12px;
         margin: 0px !important;
+        text-decoration: none;
         color: #5a5a5ddd;
     }
 
     #links {
-        font-size: 14px;
+        font-size: 12px;
         text-decoration: none;
         margin: 0rem 0.5rem 0rem 0.5rem;
     }
@@ -76,6 +83,19 @@
         justify-content: space-between;
         margin: 0px 370px 0px 370px;
     }
+    .end-footer-first a {
+        text-decoration: none;
+        color: #5a5a5ddd;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .end-footer-first a:hover {
+        text-decoration: underline;
+        color: #5a5a5ddd;
+        font-size: 12px;
+        margin-right: 10px;
+    }
 
     .end-footer-second {
         display: flex;
@@ -86,7 +106,7 @@
     .end-footer-second a {
         text-decoration: none;
         color: #5a5a5ddd;
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 10px;
     }
 
@@ -96,6 +116,26 @@
     }
 
     .border-footer {
-      
         margin: 10px 370px 10px 370px;
+    }
+
+    @media (max-width: 1470px) {
+        .main-footer {
+            flex-direction: row;
+            flex-wrap: wrap;
+           
+        }
+        .middle-footer {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .end-footer-first {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .end-footer-second {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
     }
