@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   font-family: Helvetica, Arial, sans-serif;
 }
 body #top {
@@ -57,6 +58,9 @@ body #top .dark h6 {
 }
 body #top .dark a {
   color: #2997ff;
+=======
+  font-family: Arial, Helvetica, sans-serif;
+>>>>>>> f0634fd2dffbb15f822ad781a1096927d495e9ee
 }
 
 header {
@@ -66,6 +70,7 @@ header {
 
 #top {
   font-size: 14px;
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -206,6 +211,34 @@ header {
 
 #carousel {
   font-size: 20px;
+=======
+}
+
+#carousel .carousel-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+#carousel .btn-stream {
+  color: #1d1d1f;
+  background-color: #fff;
+  width: 140px;
+  border-radius: 20px;
+  border: none;
+}
+#carousel .stream {
+  font-weight: 600;
+  padding: 0 5px 0 0;
+}
+#carousel .spanDot {
+  margin: 0 3px;
+}
+#carousel .pText {
+  font-size: 20px;
+  letter-spacing: 0em;
+  margin-left: 40px;
+  padding-top: 5px;
+>>>>>>> f0634fd2dffbb15f822ad781a1096927d495e9ee
 }
 
 footer {
