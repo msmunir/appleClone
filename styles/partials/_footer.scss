@@ -1,4 +1,157 @@
 @mixin footer {
     //    ALLT DU SKRIVER SKA VA INNANGÖR DEN HÄR MIXINEN.
-    font-size: 18PX;
+    // font-size: 18PX;
+    }
+
+    // div {
+    //     border: 3px solid red;
+    // }
+
+    ul {
+        padding-inline-start: 0px !important;
+    }
+
+    #infotext-footer {
+        margin: 0px 370px 0px 370px;
+        color: #5a5a5ddd;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .infotext-footer-text {
+        line-height: 1.33337;
+    }
+
+    .container-footer {
+        width: 100%;
+        position:relative;
+        bottom:0;
+        margin-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f7;
+    }
+
+    //h4 RUBRIKER
+    #category-header {
+        font-size: 12px;
+        color: black;
+        padding-top: 1.5rem;
+    }
+
+    //TOP FOOTER
+    .main-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 370px 0px 370px;
+    }
+
+    .main-footer a {
+        text-decoration: none;
+        color: #5a5a5ddd;
+        font-size: 12px;
+    }
+
+    .main-footer li {
+        list-style-type: none;
+        padding: 0.1rem;
+    }
+
+    .main-footer a:hover {
+       text-decoration: underline;
+       color: #5a5a5ddd;
+    }
+
+    // MIDDLE-FOOTER
+
+    .middle-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 30px 370px 0px 370px;
+    }
+
+    #footer-text {
+        font-size: 12px;
+        margin: 0px !important;
+        text-decoration: none;
+        color: #5a5a5ddd;
+    }
+
+    #links {
+        font-size: 12px;
+        text-decoration: none;
+        margin: 0rem 0.5rem 0rem 0.5rem;
+    }
+
+    #links:hover {
+        text-decoration: underline;
+    }
+
+    // END FOOTER 
+
+    .end-footer-first {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin: 0px 370px 0px 370px;
+    }
+    .end-footer-first a {
+        text-decoration: none;
+        color: #5a5a5ddd;
+        font-size: 12px;
+        margin-left: 22px;
+    }
+
+    .end-footer-first a:hover {
+        text-decoration: underline;
+        color: #5a5a5ddd;
+        font-size: 12px;
+    }
+
+    .end-footer-second {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 370px 0px 370px;
+    }
+
+    .end-footer-second a {
+        text-decoration: none;
+        color: #5a5a5ddd;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .end-footer-second a:hover {
+        text-decoration: underline;
+        color: #5a5a5ddd;
+    }
+
+    .border-footer {
+        margin: 10px 370px 10px 370px;
+    }
+
+    #United-states{
+       margin-left: 180px;
+    }
+
+    @media (max-width: 1470px) {
+        .main-footer {
+            flex-direction: row;
+            flex-wrap: wrap;
+           
+        }
+        .middle-footer {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .end-footer-first {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .end-footer-second {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
     }

@@ -70,6 +70,148 @@ body #top .dark a {
   color: #2997ff;
 }
 
+ul {
+  -webkit-padding-start: 0px !important;
+          padding-inline-start: 0px !important;
+}
+
+#infotext-footer {
+  margin: 0px 370px 0px 370px;
+  color: rgba(90, 90, 93, 0.8666666667);
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.infotext-footer-text {
+  line-height: 1.33337;
+}
+
+.container-footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f7;
+}
+
+#category-header {
+  font-size: 12px;
+  color: black;
+  padding-top: 1.5rem;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 370px 0px 370px;
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: rgba(90, 90, 93, 0.8666666667);
+  font-size: 12px;
+}
+
+.main-footer li {
+  list-style-type: none;
+  padding: 0.1rem;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+  color: rgba(90, 90, 93, 0.8666666667);
+}
+
+.middle-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 30px 370px 0px 370px;
+}
+
+#footer-text {
+  font-size: 12px;
+  margin: 0px !important;
+  text-decoration: none;
+  color: rgba(90, 90, 93, 0.8666666667);
+}
+
+#links {
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+#links:hover {
+  text-decoration: underline;
+}
+
+.end-footer-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 0px 370px 0px 370px;
+}
+
+.end-footer-first a {
+  text-decoration: none;
+  color: rgba(90, 90, 93, 0.8666666667);
+  font-size: 12px;
+  margin-left: 22px;
+}
+
+.end-footer-first a:hover {
+  text-decoration: underline;
+  color: rgba(90, 90, 93, 0.8666666667);
+  font-size: 12px;
+}
+
+.end-footer-second {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 370px 0px 370px;
+}
+
+.end-footer-second a {
+  text-decoration: none;
+  color: rgba(90, 90, 93, 0.8666666667);
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.end-footer-second a:hover {
+  text-decoration: underline;
+  color: rgba(90, 90, 93, 0.8666666667);
+}
+
+.border-footer {
+  margin: 10px 370px 10px 370px;
+}
+
+#United-states {
+  margin-left: 180px;
+}
+
+@media (max-width: 1470px) {
+  .main-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .middle-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .end-footer-first {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .end-footer-second {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -77,8 +219,56 @@ body #top .dark a {
 }
 
 header {
-  font-size: 17PX;
-  background: red;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header .navbar {
+  height: 48px;
+  background: #323233;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+header .navbar ul {
+  padding: 0 0.8rem;
+  margin-left: -10px;
+}
+header .navbar ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 0.8rem;
+}
+header .navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #d3d3d4;
+  transition: 0.3s ease-in-out;
+  font-size: 12px;
+  line-height: 2.8;
+  font-weight: 300;
+  letter-spacing: 0.07em;
+  padding: 0 8px;
+  opacity: 0.95;
+}
+header .navbar ul li a:hover {
+  color: white;
+}
+header .navbar ul li a .logo {
+  margin-top: -5px;
+  opacity: 0.9;
+  width: 15px;
+  height: 18px;
+}
+header .navbar ul li a .fa-search {
+  transform: scale(1.3);
+}
+header .navbar ul li a .fa-shopping-bag {
+  transform: scale(1.3);
 }
 
 #top {
@@ -146,10 +336,12 @@ header {
   background-size: contain;
 }
 #top #rowx1 {
-  background: url(./images/hero_iphone14__fjmsqstr1ceq_mediumtall_2x.jpeg);
+  background-color: #fbfbfd;
+  background-image: url(./images/hero_iphone14__fjmsqstr1ceq_mediumtall_2x.jpeg);
   background-size: contain;
   background-position: center;
   margin-top: 44px;
+  background-repeat: no-repeat;
 }
 #top #rowx1 section {
   padding-top: 55px;
@@ -264,6 +456,7 @@ header {
   letter-spacing: 0em;
   margin-left: 40px;
   padding-top: 5px;
+<<<<<<< HEAD
 }
 #carousel .cbtn {
   opacity: 0.1;
@@ -271,4 +464,6 @@ header {
 
 footer {
   font-size: 18PX;
+=======
+>>>>>>> 36d1d737572c9cea669508ac2d4a1fff70ae85df
 }/*# sourceMappingURL=main.css.map */
