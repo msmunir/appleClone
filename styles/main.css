@@ -260,12 +260,13 @@ header {
 }
 #carousel .pText {
   font-size: 20px;
+  line-height: 1.21053;
   letter-spacing: 0em;
   margin-left: 40px;
   padding-top: 5px;
 }
 #carousel .cbtn {
-  display: none;
+  opacity: 0.1;
 }
 
 footer {
