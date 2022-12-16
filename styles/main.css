@@ -217,11 +217,14 @@ ul {
   padding: 0;
   box-sizing: border-box;
 }
+* body {
+  max-width: 2600px;
+  margin: auto;
+}
 
 header {
   font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
+  position: relative;
 }
 header .navbar {
   height: 48px;
