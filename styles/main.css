@@ -264,6 +264,9 @@ header {
   margin-left: 40px;
   padding-top: 5px;
 }
+#carousel .cbtn {
+  display: none;
+}
 
 footer {
   font-size: 18PX;
