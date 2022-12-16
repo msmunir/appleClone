@@ -75,6 +75,17 @@ ul {
           padding-inline-start: 0px !important;
 }
 
+#infotext-footer {
+  margin: 0px 370px 0px 370px;
+  color: rgba(90, 90, 93, 0.8666666667);
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+.infotext-footer-text {
+  line-height: 1.33337;
+}
+
 .container-footer {
   width: 100%;
   position: relative;
@@ -140,7 +151,7 @@ ul {
 .end-footer-first {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   margin: 0px 370px 0px 370px;
 }
 
@@ -148,14 +159,13 @@ ul {
   text-decoration: none;
   color: rgba(90, 90, 93, 0.8666666667);
   font-size: 12px;
-  margin-right: 10px;
+  margin-left: 22px;
 }
 
 .end-footer-first a:hover {
   text-decoration: underline;
   color: rgba(90, 90, 93, 0.8666666667);
   font-size: 12px;
-  margin-right: 10px;
 }
 
 .end-footer-second {
@@ -178,6 +188,10 @@ ul {
 
 .border-footer {
   margin: 10px 370px 10px 370px;
+}
+
+#United-states {
+  margin-left: 180px;
 }
 
 @media (max-width: 1470px) {

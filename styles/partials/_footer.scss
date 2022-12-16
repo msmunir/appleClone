@@ -11,6 +11,17 @@
         padding-inline-start: 0px !important;
     }
 
+    #infotext-footer {
+        margin: 0px 370px 0px 370px;
+        color: #5a5a5ddd;
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    .infotext-footer-text {
+        line-height: 1.33337;
+    }
+
     .container-footer {
         width: 100%;
         position:relative;
@@ -82,21 +93,20 @@
     .end-footer-first {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: start;
         margin: 0px 370px 0px 370px;
     }
     .end-footer-first a {
         text-decoration: none;
         color: #5a5a5ddd;
         font-size: 12px;
-        margin-right: 10px;
+        margin-left: 22px;
     }
 
     .end-footer-first a:hover {
         text-decoration: underline;
         color: #5a5a5ddd;
         font-size: 12px;
-        margin-right: 10px;
     }
 
     .end-footer-second {
@@ -119,6 +129,10 @@
 
     .border-footer {
         margin: 10px 370px 10px 370px;
+    }
+
+    #United-states{
+       margin-left: 180px;
     }
 
     @media (max-width: 1470px) {
