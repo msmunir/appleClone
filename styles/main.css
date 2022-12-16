@@ -322,10 +322,12 @@ header .navbar ul li a .fa-shopping-bag {
   background-size: contain;
 }
 #top #rowx1 {
-  background: url(./images/hero_iphone14__fjmsqstr1ceq_mediumtall_2x.jpeg);
+  background-color: #fbfbfd;
+  background-image: url(./images/hero_iphone14__fjmsqstr1ceq_mediumtall_2x.jpeg);
   background-size: contain;
   background-position: center;
   margin-top: 44px;
+  background-repeat: no-repeat;
 }
 #top #rowx1 section {
   padding-top: 55px;
