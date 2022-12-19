@@ -140,9 +140,80 @@
         max-width: 980px;
     }
 
+.border-footer-accordian {
+    margin:auto 1rem;
+    display:none;
+}
+
+.border-footer-accordian-shop {
+    margin:auto 1rem;
+    // display:none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
     #United-states{
        margin-left: 222px;
     }
+
+    .accordion {
+        background-color: #f5f5f7;
+        color: #5a5a5ddd;
+        cursor: pointer;
+        padding: 12px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 12px;
+        display:none;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #f5f5f7;
+        color:black;
+      }
+      
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: #f5f5f7;
+        overflow: hidden;
+        display:none;
+      }
+
+    .accordion-cross {
+        float: right;
+        margin-top: 20px;
+        margin-right: 48px;
+        border: none;
+        color:  #5d5a5add;
+        display:none;
+    }  
+    .accordion-cross:hover {
+        background-color: #f5f5f7;
+        color:black;
+      }
+
+    @media (max-width: 750px) {
+
+        .main-footer {
+            display: none;
+        }
+        .accordion {
+            display: block;
+        }
+        .border-footer-accordian {
+            display:block;
+        }
+        .border-footer {
+            display: none;
+        }
+       .middle-footer {
+        padding: 1rem;
+       }
+    }
+    
 
     @media (max-width: 1040px) {
 
