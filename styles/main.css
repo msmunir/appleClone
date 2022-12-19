@@ -293,6 +293,11 @@ header .navbar ul li a .fa-shopping-bag {
   gap: 12px;
   position: relative;
 }
+@media (max-width: 1068px) {
+  #top .rowx {
+    height: 650px;
+  }
+}
 #top .rowx section, #top .split section {
   display: flex;
   flex-direction: column;
@@ -314,6 +319,11 @@ header .navbar ul li a .fa-shopping-bag {
   height: 580px;
   margin: 0px 12px;
   gap: 12px;
+}
+@media (max-width: 1068px) {
+  #top .grid {
+    height: 490px;
+  }
 }
 #top .split {
   display: flex;
@@ -340,8 +350,8 @@ header .navbar ul li a .fa-shopping-bag {
 }
 #top #rowx1 {
   background-color: #fbfbfd;
-  background-image: url(./images/hero_iphone14__fjmsqstr1ceq_mediumtall_2x.jpeg);
-  background-size: contain;
+  background-image: url(./images/hero_iphone14__fjmsqstr1ceq_largetall_2x.jpeg);
+  background-size: 3008px auto;
   background-position: center;
   margin-top: 44px;
   background-repeat: no-repeat;
@@ -372,6 +382,13 @@ header .navbar ul li a .fa-shopping-bag {
   background-size: 3008px auto;
   background-position: center;
 }
+@media (max-width: 1068px) {
+  #top #rowx3 {
+    background: url(./images/hero__dvsxv8smkkgi_mediumtall.jpeg);
+    background-size: 1068px 694px;
+    background-position: center;
+  }
+}
 #top #rowx3 h2 {
   margin-top: 55px;
   background: url(./images/card_logo__b0k9gna8xemu_largetall_2x.png);
@@ -384,18 +401,39 @@ header .navbar ul li a .fa-shopping-bag {
 }
 #top #split1 {
   background: url(./images/promo_iphone14pro__4n4twj56fzmu_large.jpeg);
-  background-size: auto 580px;
+  background-size: auto 100%;
   background-position: center;
+}
+@media (max-width: 1068px) {
+  #top #split1 {
+    background: url(./images/promo_iphone14pro__4n4twj56fzmu_medium_2x.jpeg);
+    background-size: auto 100%;
+    background-position: center;
+  }
 }
 #top #split2 {
   background: url(./images/promo_ipad__fioegapg12qi_large.jpeg);
-  background-size: auto 580px;
+  background-size: auto 100%;
   background-position: center;
+}
+@media (max-width: 1068px) {
+  #top #split2 {
+    background: url(./images/promo_ipad__fioegapg12qi_medium_2x.jpeg);
+    background-size: auto 100%;
+    background-position: center;
+  }
 }
 #top #split3 {
   background: url(./images/promo_airpods_holiday__fqg7rt8b4vma_large.jpeg);
-  background-size: auto 580px;
+  background-size: auto 100%;
   background-position: center;
+}
+@media (max-width: 1068px) {
+  #top #split3 {
+    background: url(./images/promo_airpods_holiday__fqg7rt8b4vma_medium_2x.jpeg);
+    background-size: auto 100%;
+    background-position: center;
+  }
 }
 #top #split3 figure {
   margin-top: 53px;
@@ -405,8 +443,15 @@ header .navbar ul li a .fa-shopping-bag {
 }
 #top #split4 {
   background: url(./images/promo_apple_watch_series_8__ch7rexplmihe_large.jpeg);
-  background-size: auto 580px;
+  background-size: auto 100%;
   background-position: center;
+}
+@media (max-width: 1068px) {
+  #top #split4 {
+    background: url(./images/promo_apple_watch_series_8__ch7rexplmihe_medium_2x.jpeg);
+    background-size: auto 100%;
+    background-position: center;
+  }
 }
 #top #split4 #watch8 {
   background: url(./images/promo_logo_apple_watch_series_8__ee6riplsucuq_large_2x.png);
@@ -416,8 +461,15 @@ header .navbar ul li a .fa-shopping-bag {
 }
 #top #split5 {
   background: url(./images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpeg);
-  background-size: auto 580px;
+  background-size: auto 100%;
   background-position: center;
+}
+@media (max-width: 1068px) {
+  #top #split5 {
+    background: url(./images/promo_apple_watch_ultra__gnsqulvdc4a6_medium_2x.jpeg);
+    background-size: auto 100%;
+    background-position: center;
+  }
 }
 #top #split5 #watchUltra {
   background: url(./images/promo_logo_apple_watch_ultra__ebzaahharnue_large.png);
@@ -427,8 +479,15 @@ header .navbar ul li a .fa-shopping-bag {
 }
 #top #split6 {
   background: url(./images/tile_homepod_mini__b73w4z3ljymu_large.jpeg);
-  background-size: auto 580px;
+  background-size: auto 100%;
   background-position: center;
+}
+@media (max-width: 1068px) {
+  #top #split6 {
+    background: url(./images/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpeg);
+    background-size: auto 100%;
+    background-position: center;
+  }
 }
 #top .hide {
   display: none;
