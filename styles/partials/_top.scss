@@ -101,6 +101,14 @@
 
         section {           
             padding-top: 55px;
+
+            @media (max-width: 1068px) {
+                padding-top: 61px;
+            }
+            @media (max-width: 734px) {
+                padding-top: 37px;
+            }
+
         }
     }
     #rowx2 {
@@ -114,13 +122,33 @@
             }
             
         }
-        #background-video {
+        .background-video {
             height: 100%;
             object-fit: cover;
             object-position: center;
             z-index: -1;
             padding: 0;
             overflow: hidden;
+          }
+        
+          #vid1 {
+            @media (max-width: 1001px) {
+                display: none;
+            }
+          }
+          #vid2 {
+
+            @media (max-width: 734px) {
+                display: none;
+            }
+            @media (min-width: 1001px) {
+                display: none;
+            }
+          }
+          #vid3 {
+            @media (min-width: 733px) {
+                display: none;
+            }
           }
     }
     #rowx3 {

@@ -13,20 +13,50 @@ body #top h2 {
   font-weight: 500;
   line-height: 1.07143;
 }
+@media (max-width: 1068px) {
+  body #top h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 734px) {
+  body #top h2 {
+    font-size: 32px;
+  }
+}
 body #top h3 {
   font-size: 28px;
   font-weight: 400;
   line-height: 1.10722;
   margin-top: 6px;
 }
+@media (max-width: 1068px) {
+  body #top h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 734px) {
+  body #top h3 {
+    font-size: 19px;
+  }
+}
 body #top h4 {
   font-size: 40px;
   margin-top: 53px;
+}
+@media (max-width: 1068px) {
+  body #top h4 {
+    font-size: 32px;
+  }
 }
 body #top h5 {
   font-size: 21px;
   font-weight: 300;
   margin-top: 4px;
+}
+@media (max-width: 1068px) {
+  body #top h5 {
+    font-size: 19px;
+  }
 }
 body #top h6 {
   font-size: 20px;
@@ -45,6 +75,16 @@ body #top .links a {
   color: #06c;
   text-decoration: none;
 }
+@media (max-width: 1068px) {
+  body #top .links a {
+    font-size: 19px;
+  }
+}
+@media (max-width: 734px) {
+  body #top .links a {
+    font-size: 17px;
+  }
+}
 body #top .links a:hover {
   text-decoration: underline;
 }
@@ -52,7 +92,12 @@ body #top .links a:nth-child(2) {
   margin-left: 35px;
 }
 body #top .split .links a {
-  font-size: 17px;
+  font-size: 19px;
+}
+@media (max-width: 1068px) {
+  body #top .split .links a {
+    font-size: 17px;
+  }
 }
 body #top .split .links a:nth-child(2) {
   margin-left: 28px;
@@ -390,6 +435,16 @@ header .navbar ul li a .fa-shopping-bag {
 #top #rowx1 section {
   padding-top: 55px;
 }
+@media (max-width: 1068px) {
+  #top #rowx1 section {
+    padding-top: 61px;
+  }
+}
+@media (max-width: 734px) {
+  #top #rowx1 section {
+    padding-top: 37px;
+  }
+}
 #top #rowx2 section {
   position: absolute;
   align-self: flex-end;
@@ -398,7 +453,7 @@ header .navbar ul li a .fa-shopping-bag {
 #top #rowx2 section h3 {
   max-width: 360px;
 }
-#top #rowx2 #background-video {
+#top #rowx2 .background-video {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -407,6 +462,26 @@ header .navbar ul li a .fa-shopping-bag {
   z-index: -1;
   padding: 0;
   overflow: hidden;
+}
+@media (max-width: 1001px) {
+  #top #rowx2 #vid1 {
+    display: none;
+  }
+}
+@media (max-width: 734px) {
+  #top #rowx2 #vid2 {
+    display: none;
+  }
+}
+@media (min-width: 1001px) {
+  #top #rowx2 #vid2 {
+    display: none;
+  }
+}
+@media (min-width: 733px) {
+  #top #rowx2 #vid3 {
+    display: none;
+  }
 }
 #top #rowx3 {
   background: url(./images/hero__dvsxv8smkkgi_largetall.jpeg);
