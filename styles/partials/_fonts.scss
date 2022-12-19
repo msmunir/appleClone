@@ -3,35 +3,31 @@ body {
 
     #top {
         color: $darkgrey;
+        font-family: 'SF Pro Display', Helvetica, Arial, sans-serif;
+
         * {
             margin: 0;
         }
 
         h2 {
-            // font-size: 56px;
-            font-size: 54px;
-            // font-weight: 600;
+            font-size: 56px;
             font-weight: 500;
             line-height: 1.07143;
         }
         h3 {
-            // font-size: 28px;
-            font-size: 26px;
+            font-size: 28px;
             font-weight:400;
             line-height: 1.10722;
             margin-top: 6px;
         }
 
         h4 {
-            // font-size: 40px;
-            font-size: 38px;
-            font-weight: 500;
+            font-size: 40px;
             margin-top: 53px;
         }
         
         h5 {
-             // font-size: 21px;
-             font-size: 20px;
+             font-size: 21px;
              font-weight: 300;
              margin-top: 4px;
         }
@@ -49,8 +45,7 @@ body {
         }
 
         .links a {
-            // font-size: 21px;
-            font-size: 20px;
+            font-size: 21px;
             font-weight: 300;
             z-index: 2;
             color: $blue;
@@ -66,7 +61,7 @@ body {
         }
 
         .split .links a {
-            font-size: 16px;
+            font-size: 17px;
             
             &:nth-child(2) {
                 margin-left: 28px;         
