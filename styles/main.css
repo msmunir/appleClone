@@ -455,7 +455,11 @@ header .navbar ul li a .fa-shopping-bag {
 }
 #carousel .pText {
   font-size: 20px;
+  line-height: 1.21053;
   letter-spacing: 0em;
   margin-left: 40px;
   padding-top: 5px;
+}
+#carousel .cbtn {
+  opacity: 0.1;
 }/*# sourceMappingURL=main.css.map */
