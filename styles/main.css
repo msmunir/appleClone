@@ -515,7 +515,9 @@ header .navbar ul li a .fa-shopping-bag {
 
 #carousel #carouselPart {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 #carousel .crSlide {
   position: relative;
