@@ -7,12 +7,17 @@
     //     border: 3px solid red;
     // }
 
+    // section {
+    //    border: 3px solid red;
+    // }
+
     ul {
         padding-inline-start: 0px !important;
     }
 
     #infotext-footer {
-        margin: 0px 370px 0px 370px;
+        margin: 0 auto;
+        max-width: 980px;
         color: #5a5a5ddd;
         font-size: 12px;
         padding-top: 20px;
@@ -43,7 +48,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 0px 370px 0px 370px;
+        margin:auto;
+        max-width: 980px;
     }
 
     .main-footer a {
@@ -68,7 +74,8 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        margin: 30px 370px 0px 370px;
+        margin: auto;
+        max-width: 980px;
     }
 
     #footer-text {
@@ -94,7 +101,8 @@
         display: flex;
         flex-direction: row;
         justify-content: start;
-        margin: 0px 370px 0px 370px;
+        margin: auto;
+        max-width: 980px;
     }
     .end-footer-first a {
         text-decoration: none;
@@ -128,26 +136,105 @@
     }
 
     .border-footer {
-        margin: 10px 370px 10px 370px;
+        margin: auto;
+        max-width: 980px;
     }
+
+.border-footer-accordian {
+    margin:auto 1rem;
+    display:none;
+}
+
+.border-footer-accordian-shop {
+    margin:auto 1rem;
+    // display:none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
     #United-states{
-       margin-left: 180px;
+       margin-left: 222px;
     }
 
-    @media (max-width: 1470px) {
+    .accordion {
+        background-color: #f5f5f7;
+        color: #5a5a5ddd;
+        cursor: pointer;
+        padding: 12px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 12px;
+        display:none;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #f5f5f7;
+        color:black;
+      }
+      
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: #f5f5f7;
+        overflow: hidden;
+        display:none;
+      }
+
+    .accordion-cross {
+        float: right;
+        margin-top: 20px;
+        margin-right: 48px;
+        border: none;
+        color:  #5d5a5add;
+        display:none;
+    }  
+    .accordion-cross:hover {
+        background-color: #f5f5f7;
+        color:black;
+      }
+
+    @media (max-width: 750px) {
+
+        .main-footer {
+            display: none;
+        }
+        .accordion {
+            display: block;
+        }
+        .border-footer-accordian {
+            display:block;
+        }
+        .border-footer {
+            display: none;
+        }
+       .middle-footer {
+        padding: 1rem;
+       }
+    }
+    
+
+    @media (max-width: 1040px) {
+
+        #infotext-footer {
+            padding: 0rem 1.5rem 0rem 1.5rem;
+        }
         .main-footer {
             flex-direction: row;
             flex-wrap: wrap;
+            padding: 0rem 1.5rem 0rem 1.5rem;
            
         }
         .middle-footer {
             flex-direction: row;
             flex-wrap: wrap;
+            padding: 0rem 1.5rem 0rem 1.5rem;
         }
         .end-footer-first {
             flex-direction: row;
             flex-wrap: wrap;
+            padding: 0rem 1.5rem 0rem 1.5rem;
         }
         .end-footer-second {
             flex-direction: row;
