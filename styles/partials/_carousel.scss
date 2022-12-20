@@ -7,8 +7,8 @@
     }
 
     .btn-stream{
-        color: #1d1d1f;
-        background-color: #fff;
+        color: $darkgrey;
+        background-color: $whiter;
         width: 140px;
         border-radius: 20px;
         border: none;
@@ -34,5 +34,8 @@
     .cbtn{
         opacity: 0.1;
         // display: hidden;
+    }
+    .w-100{
+        width: 95% !important;
     }
 }
