@@ -424,7 +424,7 @@ header .navbar ul li a .fa-shopping-bag {
 }
 @media (max-width: 734px) {
   #top .rowx {
-    height: 548px;
+    height: 500px;
   }
 }
 #top .rowx section, #top .split section {
@@ -474,7 +474,7 @@ header .navbar ul li a .fa-shopping-bag {
 }
 @media (max-width: 734px) {
   #top .split {
-    height: 548px;
+    height: 500px;
     flex-basis: auto;
   }
 }
@@ -509,6 +509,7 @@ header .navbar ul li a .fa-shopping-bag {
     background: url(./images/hero_iphone14__fjmsqstr1ceq_small_2x.jpeg);
     background-size: auto 100%;
     background-position: center;
+    margin-top: 48px;
   }
 }
 #top #rowx1 section {
@@ -524,6 +525,9 @@ header .navbar ul li a .fa-shopping-bag {
     padding-top: 37px;
   }
 }
+#top #rowx2 {
+  overflow: hidden;
+}
 #top #rowx2 section {
   position: absolute;
   align-self: flex-end;
@@ -533,29 +537,36 @@ header .navbar ul li a .fa-shopping-bag {
   max-width: 360px;
 }
 #top #rowx2 .background-video {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  position: absolute;
   z-index: -1;
   padding: 0;
-  overflow: hidden;
 }
-@media (max-width: 1001px) {
+#top #rowx2 #vid1 {
+  height: 736px;
+  top: -40px;
+}
+@media (max-width: 1068px) {
   #top #rowx2 #vid1 {
     display: none;
   }
+}
+#top #rowx2 #vid2 {
+  height: 694px;
+  top: -44px;
 }
 @media (max-width: 734px) {
   #top #rowx2 #vid2 {
     display: none;
   }
 }
-@media (min-width: 1001px) {
+@media (min-width: 1067px) {
   #top #rowx2 #vid2 {
     display: none;
   }
+}
+#top #rowx2 #vid3 {
+  height: 548px;
+  top: -30px;
 }
 @media (min-width: 733px) {
   #top #rowx2 #vid3 {
