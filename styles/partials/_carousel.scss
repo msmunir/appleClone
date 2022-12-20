@@ -1,5 +1,15 @@
 @mixin carousel {
 
+    #carouselPart {
+        display: flex;
+        justify-content: center;
+        // align-content: center;
+    }
+    .crSlide{
+        position: relative;
+        width: 80% !important;
+    }
+
     .carousel-flex{
         display: flex;
         flex-direction: row;
@@ -12,10 +22,6 @@
         width: 140px;
         border-radius: 20px;
         border: none;
-        // height: 50px;
-        // padding: 12px 22px;
-        // font-size: 14px;
-        // font-weight: 400;
     }
     .stream{
         font-weight: 600;
@@ -35,7 +41,6 @@
         opacity: 0.1;
         // display: hidden;
     }
-    // .w-100{
-    //     width: 95% !important;
-    // }
+
+
 }

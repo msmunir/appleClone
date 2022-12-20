@@ -513,6 +513,14 @@ header .navbar ul li a .fa-shopping-bag {
   display: none;
 }
 
+#carousel #carouselPart {
+  display: flex;
+  justify-content: center;
+}
+#carousel .crSlide {
+  position: relative;
+  width: 80% !important;
+}
 #carousel .carousel-flex {
   display: flex;
   flex-direction: row;
