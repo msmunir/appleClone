@@ -2,8 +2,9 @@
 
     #carouselPart {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        // align-content: center;
+        align-items:center;
     }
     .crSlide{
         position: relative;
@@ -14,6 +15,9 @@
         display: flex;
         flex-direction: row;
         justify-content:left;
+        align-items: center;
+        // align-content: center;
+        flex-wrap: wrap;
     }
 
     .btn-stream{
@@ -34,13 +38,76 @@
         font-size: 20px;
         line-height: 1.21053;
         letter-spacing: 0em;
-        margin-left: 40px;
+        margin-left: 80px;
         padding-top: 5px;
     }
     .cbtn{
-        opacity: 0.1;
+        opacity: 0;
         // display: hidden;
     }
 
+     @media (max-width:768px) {
+        .carousel-flex{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content:center;
+            align-items: center;
+            // align-content: center;
+            flex-wrap: wrap;
+        }
+        .pText{
+            font-size: 14px;
+            margin-bottom: 1rem;
+            padding-top: 5px;
+        }
+        .cbtn{
+            opacity: 1;
+        }
+    }
+
+     @media (max-width:480px) {
+        .carousel-flex{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content:center;
+            align-items: center;
+            // align-content: center;
+            flex-wrap: wrap;
+        }
+        .pText{
+            font-size: 12px;
+            margin: 0 1rem 4rem 3rem;
+            padding-top: 5px;
+        }
+    }
+
+   
+   
+//     @media (min-width:769px) {
+
+    
+// }
 
 }
+
+// and (max-width:480px)
+
+
+  // .crslBtn{
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: space-between;
+
+    //     position: relative;
+    //     bottom: -600px;
+    // }
+    
+    // .pauseBtn{
+    //     margin-left: 80px;
+    //     position: absolute;
+    //     right: 100px;
+    // }
+    // #pauseBtn{
+    //     background: none;
+    //     border-radius: 50%;
+    // }
